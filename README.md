@@ -35,5 +35,6 @@ Although framed around agriculture, this project demonstrates key, transferable 
 ---
 
 ## Dataset
-The dataset used is the **PlantVillage dataset**, a freely available collection of over 50,000 labelled images of healthy and diseased plant leaves.  
-It can be accessed on Kaggle: [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease).  
+This project uses the **PlantVillage dataset**, a freely available dataset of labelled images of healthy and diseased plant leaves.  
+
+The dataset source and usage details are provided in the included HTML report.
