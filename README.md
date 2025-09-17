@@ -1,22 +1,39 @@
 # Plant Disease Classification (PyTorch)
 
-This project was completed as part of my **Advanced AI module** at Loughborough University, where it received a grade of **94/100**.  
+This repository contains my coursework for the **Advanced AI module** at Loughborough University, where it achieved a grade of **94/100**.  
 
-The aim was to build and evaluate a **Convolutional Neural Network (CNN)** in PyTorch to classify plant leaf diseases using the **PlantVillage** dataset which is freely available on Kaggle.
-
-The full workflow, including data preprocessing, model training, evaluation, and visualisation, is documented in the notebook and HTML export provided in this repository.
+The task was to create a **tutorial-style AI pipeline** in Jupyter Notebook, guiding readers through the process of building and evaluating a **Convolutional Neural Network (CNN)** in PyTorch to classify plant leaf diseases using the **PlantVillage dataset** (freely available on Kaggle).
 
 ---
 
-## Repository Contents
+## Contents
+- **Notebook (`.ipynb`)** – step-by-step AI pipeline tutorial with explanations and code.  
+- **Report (`.html`)** – exported walkthrough showing the complete workflow.  
 
+The pipeline covers:
+- Data preprocessing & augmentation  
+- Custom CNN architecture in PyTorch  
+- Training, validation, and test evaluation  
+- Hyperparameter experiments (learning rate, dropout, batch size)  
+- Visualisation of results and performance  
 
 ---
 
 ## Relevance
-Although this project is focused on agriculture, it demonstrates skills directly transferable to data analytics roles:
-- Working with large datasets
-- Applying predictive modelling and evaluation
-- Communicating results clearly  
+Although framed around agriculture, this project demonstrates key, transferable data skills:  
+- Working with large, messy datasets  
+- Building and validating predictive models  
+- Experimenting with hyperparameters to improve performance  
+- Communicating results clearly through both visuals and narrative  
 
 ---
+
+## How to Use
+1. Open the `.ipynb` file in Jupyter Notebook to run the tutorial interactively.  
+2. Or view the `.html` report directly for a read-only version of the full pipeline and results.  
+
+---
+
+## Dataset
+The dataset used is the **PlantVillage dataset**, a freely available collection of over 50,000 labelled images of healthy and diseased plant leaves.  
+It can be accessed on Kaggle: [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease).  
